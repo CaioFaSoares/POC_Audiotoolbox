@@ -11,6 +11,8 @@
 		D6F24E6F29192E21002689B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F24E6E29192E21002689B2 /* ContentView.swift */; };
 		D6F24E7129192E24002689B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F24E7029192E24002689B2 /* Assets.xcassets */; };
 		D6F24E7429192E24002689B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F24E7329192E24002689B2 /* Preview Assets.xcassets */; };
+		D6F24E7B29192E5A002689B2 /* ADTFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F24E7A29192E5A002689B2 /* ADTFuncs.swift */; };
+		D6F24E7E29193635002689B2 /* Soundfont.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = D6F24E7D29193407002689B2 /* Soundfont.sf2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D6F24E6E29192E21002689B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D6F24E7029192E24002689B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6F24E7329192E24002689B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6F24E7A29192E5A002689B2 /* ADTFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADTFuncs.swift; sourceTree = "<group>"; };
+		D6F24E7D29193407002689B2 /* Soundfont.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Soundfont.sf2; path = POC_Audiotoolbox/Soundfont.sf2; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +55,11 @@
 		D6F24E6B29192E21002689B2 /* POC_Audiotoolbox */ = {
 			isa = PBXGroup;
 			children = (
-				D6F24E6C29192E21002689B2 /* POC_AudiotoolboxApp.swift */,
+				D6F24E7A29192E5A002689B2 /* ADTFuncs.swift */,
 				D6F24E6E29192E21002689B2 /* ContentView.swift */,
+				D6F24E6C29192E21002689B2 /* POC_AudiotoolboxApp.swift */,
 				D6F24E7029192E24002689B2 /* Assets.xcassets */,
+				D6F24E7D29193407002689B2 /* Soundfont.sf2 */,
 				D6F24E7229192E24002689B2 /* Preview Content */,
 			);
 			path = POC_Audiotoolbox;
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6F24E7E29193635002689B2 /* Soundfont.sf2 in Resources */,
 				D6F24E7429192E24002689B2 /* Preview Assets.xcassets in Resources */,
 				D6F24E7129192E24002689B2 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6F24E7B29192E5A002689B2 /* ADTFuncs.swift in Sources */,
 				D6F24E6F29192E21002689B2 /* ContentView.swift in Sources */,
 				D6F24E6D29192E21002689B2 /* POC_AudiotoolboxApp.swift in Sources */,
 			);
