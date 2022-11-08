@@ -18,6 +18,8 @@ struct Instrument {
 
 final class Services {
     
+    static var sequencer = AVAudioSequencer()
+    
     static func buildInstrument() {
         
         guard let bankURL = Bundle.main.url(forResource: "Soundfont", withExtension: "sf2") else {   // Tem que ir em build phases
@@ -65,7 +67,7 @@ final class Services {
         engine.connect(sampler, to: engine.mainMixerNode, format: nil)
         try! engine.start()
         
-        let sequencer = AVAudioSequencer(audioEngine: engine)
+        sequencer = AVAudioSequencer(audioEngine: engine)
         
         var sequence: MusicSequence!
         _ = NewMusicSequence(&sequence)
@@ -73,7 +75,7 @@ final class Services {
         var track: MusicTrack!
         _ = MusicSequenceNewTrack(sequence, &track)
         
-        let scale = [2, 2, 1, 2, 2, 2, 1, 3, 3, 3, -2, -17]
+        let scale = [2, 2, 1, 2]
         // sobe x escalas e desce x escalas
 
         let c = 60
