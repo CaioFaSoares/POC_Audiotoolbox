@@ -12,7 +12,7 @@ struct POC_AudiotoolboxApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView().task {
-                    Services.buildInstrument()
+                Services.buildInstrument()
             }
         }
     }

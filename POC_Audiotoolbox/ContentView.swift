@@ -11,7 +11,9 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Button  {
-                Services.buildInstrument()
+                Task{
+                    Services.buildInstrument()
+                }
             } label: {
                 Text("Ukulele")
             }
