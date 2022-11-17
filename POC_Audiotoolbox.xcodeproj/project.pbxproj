@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2933E4BF291A7B39006B3DAA /* POC-Audiotoolbox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "POC-Audiotoolbox-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D6F24E6929192E21002689B2 /* POC_Audiotoolbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POC_Audiotoolbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F24E6C29192E21002689B2 /* POC_AudiotoolboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_AudiotoolboxApp.swift; sourceTree = "<group>"; };
 		D6F24E6E29192E21002689B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		D6F24E6B29192E21002689B2 /* POC_Audiotoolbox */ = {
 			isa = PBXGroup;
 			children = (
+				2933E4BF291A7B39006B3DAA /* POC-Audiotoolbox-Info.plist */,
 				D6F24E7A29192E5A002689B2 /* ADTFuncs.swift */,
 				D6F24E6E29192E21002689B2 /* ContentView.swift */,
 				D6F24E6C29192E21002689B2 /* POC_AudiotoolboxApp.swift */,
@@ -275,14 +277,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"POC_Audiotoolbox/Preview Content\"";
-				DEVELOPMENT_TEAM = MCC2B4P5MZ;
+				DEVELOPMENT_TEAM = 8YQ35HP37L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "POC-Audiotoolbox-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,14 +308,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"POC_Audiotoolbox/Preview Content\"";
-				DEVELOPMENT_TEAM = MCC2B4P5MZ;
+				DEVELOPMENT_TEAM = 8YQ35HP37L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "POC-Audiotoolbox-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
