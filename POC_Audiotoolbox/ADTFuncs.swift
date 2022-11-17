@@ -18,6 +18,7 @@ struct Instrument {
 
 struct Services {
     
+<<<<<<< HEAD
     static var sequencer: AVAudioSequencer!
     static var engine: AVAudioEngine!
     
@@ -29,6 +30,11 @@ struct Services {
         engine = AVAudioEngine()
         sequencer = AVAudioSequencer(audioEngine: engine)
         loadInstruments()
+=======
+    static var sequencer = AVAudioSequencer()
+    
+    static func buildInstrument() {
+>>>>>>> main
         
     }
     
@@ -97,6 +103,10 @@ struct Services {
         engine.connect(samplerGuitar, to: engine.mainMixerNode, format: nil)
         try! engine.start()
         
+<<<<<<< HEAD
+=======
+        sequencer = AVAudioSequencer(audioEngine: engine)
+>>>>>>> main
         
         var sequence: MusicSequence!
         NewMusicSequence(&sequence)
@@ -106,7 +116,11 @@ struct Services {
         var track2: MusicTrack!
         MusicSequenceNewTrack(sequence, &track2)
         
+<<<<<<< HEAD
         let scale = [2, 2, 1, 2, 2, 2, 1, 3, 3, 3, -2, -3, -2, -5]
+=======
+        let scale = [2, 2, 1, 2]
+>>>>>>> main
         // sobe x escalas e desce x escalas
         
         let c = 60
